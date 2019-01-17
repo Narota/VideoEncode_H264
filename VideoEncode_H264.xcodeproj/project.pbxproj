@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF87A29121B8F7A1008AF1E0 /* FileWriter_H264.m in Sources */ = {isa = PBXBuildFile; fileRef = EF87A29021B8F7A1008AF1E0 /* FileWriter_H264.m */; };
+		EF9710E021F05C7C008770F1 /* DataForH264.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9710DF21F05C7B008770F1 /* DataForH264.m */; };
 		EFC3D0EA21B7BF4D0092692D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC3D0E921B7BF4D0092692D /* AppDelegate.m */; };
 		EFC3D0ED21B7BF4D0092692D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC3D0EC21B7BF4D0092692D /* ViewController.m */; };
 		EFC3D0F021B7BF4D0092692D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC3D0EE21B7BF4D0092692D /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 /* Begin PBXFileReference section */
 		EF87A28F21B8F7A1008AF1E0 /* FileWriter_H264.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileWriter_H264.h; sourceTree = "<group>"; };
 		EF87A29021B8F7A1008AF1E0 /* FileWriter_H264.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileWriter_H264.m; sourceTree = "<group>"; };
+		EF9710DE21F05C7B008770F1 /* DataForH264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataForH264.h; sourceTree = "<group>"; };
+		EF9710DF21F05C7B008770F1 /* DataForH264.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataForH264.m; sourceTree = "<group>"; };
 		EFC3D0E521B7BF4D0092692D /* VideoEncode_H264.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoEncode_H264.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC3D0E821B7BF4D0092692D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFC3D0E921B7BF4D0092692D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 				EFC3D10421B7D0A30092692D /* Encoder_H264.m */,
 				EF87A28F21B8F7A1008AF1E0 /* FileWriter_H264.h */,
 				EF87A29021B8F7A1008AF1E0 /* FileWriter_H264.m */,
+				EF9710DE21F05C7B008770F1 /* DataForH264.h */,
+				EF9710DF21F05C7B008770F1 /* DataForH264.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				EFC3D10521B7D0A30092692D /* Encoder_H264.m in Sources */,
 				EFC3D0F821B7BF4F0092692D /* main.m in Sources */,
 				EFC3D0EA21B7BF4D0092692D /* AppDelegate.m in Sources */,
+				EF9710E021F05C7C008770F1 /* DataForH264.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
